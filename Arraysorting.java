@@ -12,10 +12,9 @@ public class ArraySorting {
             descendingArray[i] = array1[n - 1 - i];
         }
 
-        // Find the second maximum number using indexing
+        // second maximum number
         int secondMax = descendingArray[1];
 
-        // Print the array in descending order and the second maximum number
         System.out.println("Array in Descending Order: " + Arrays.toString(descendingArray));
         System.out.println("Second Maximum Number: " + secondMax);
     }
